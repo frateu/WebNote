@@ -1,2 +1,2 @@
 # WebNote
-My first Web App mad in ASP.NET 
+My first Web App made in ASP.NET 
