@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Adicionar Nota";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<div class="text-center">
+    <form action="AdicionarNota" method="post">
+        <h1>@ViewBag.Username, adicione a sua nota;</h1>
+
+        <textarea id="nota" name="Nota" rows="6" cols="50"></textarea><br />
+
+        <input type="submit" value="Adicionar" />
+    </form>
+</div>

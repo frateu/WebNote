@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "../Shared/_LayoutLogin.cshtml";
+}
+
+<div class="text-center">
+    <h1 class="text-center">WebNote Login</h1>
+    <form action="Login/Verify" method="post">
+        <label>Username: </label>
+        <input type="text" name="Username" placeholder="Enter Username" required="" /><br />
+
+        <label>Password: </label>
+        <input type="password" name="Password" placeholder="Enter the password" required="" id="myInput" /><br />
+
+        <input type="submit" value="Login" />
+    </form>
+</div>
